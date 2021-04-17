@@ -54,6 +54,9 @@ $
 $ # Install modules
 $ pip3 install -r requirements.txt
 $
+$ # You might also need to install the following modules
+$ pip install djangorestframework
+$ pip install PyMySQL
 $
 $ # Create tables
 $ python manage.py makemigrations
