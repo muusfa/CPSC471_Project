@@ -1,4 +1,4 @@
-## How to use it
+## CPSC471 An inventory Management Website for Technological Products
 
 <br />
 
