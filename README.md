@@ -40,6 +40,8 @@ $
 $ # Get the code
 $ git clone https://github.com/muusfa/CPSC471_Project.git
 $ cd CPSC471_project
+$ # Chance the branch to "UsmanDev"
+$ git checkout UsmanDev
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
