@@ -2,15 +2,6 @@
 
 <br />
 
-```bash
-$ # Get the code
-$ git clone https://github.com/muusfa/CPSC471_Project.git
-$ cd CPSC471_project
-$
-```
-
-<br />
-
 > Requirements for using the website
 - Python 3 is required. Follow the appropriate link below to install it.
 - [Windows based System](https://www.python.org/downloads/) - Python Windows installation
@@ -62,7 +53,7 @@ $ # Create tables
 $ python manage.py makemigrations
 $ python manage.py migrate
 $
-$ # Finally, create an administrative user to use the admin interface
+$ # Finally, create an customer to use the website interface
 $ python manage.py createsuperuser
 $ # You will be prompted for a username, an email address, and a password for your user
 $
@@ -80,6 +71,9 @@ $ # Start the app - custom port
 $ # python manage.py runserver 0.0.0.0:<your_port>
 $
 $ # Access the web app in browser: http://127.0.0.1:8000/
+$
+$ # You may also add /admin/ to the current URL to access admin login and admin website interface
+$ # Create new username and password to be able to login to the admin page
 ```
 
 > Note: To use the app, please access the registration page and create a new user. After authentication, the app will unlock the private pages.
