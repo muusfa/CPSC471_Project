@@ -4,25 +4,25 @@
 
 > Requirements for using the website
 - Python 3 is required. Follow the appropriate link below to install it.
-  - [Windows based System](https://www.python.org/downloads/) - Python Windows installation
-  - [Linux based System](https://docs.python-guide.org/starting/install3/linux/) - Python Linux installation
+    - [Windows based System](https://www.python.org/downloads/) - Python Windows installation
+    - [Linux based System](https://docs.python-guide.org/starting/install3/linux/) - Python Linux installation
 - Ensure you have MYSQL server setup on your computer.
 - If you do not have it installed, follow the tutorial at the following link to do so. 
-  - [MySQL Tutorial](https://www.youtube.com/watch?v=GIRcpjg-3Eg&ab_channel=edureka%21) - Youtube Video
+    - [MySQL Tutorial](https://www.youtube.com/watch?v=GIRcpjg-3Eg&ab_channel=edureka%21) - Youtube Video
 - Now to create the database, log in to your MYSQL command line tool.
 - Create a database called "store_inventory" using the command "CREATE DATABASE store_inventory;"
 - We now need to create a user that will access and use our database, do this with the command below:
-  - "CREATE USER 'djangouser'@'%' IDENTIFIED WITH mysql_native_password BY 'password';"
+    - "CREATE USER 'djangouser'@'%' IDENTIFIED WITH mysql_native_password BY 'password';"
 - Next, let the database know that our djangouser should have complete access to the database we set up:
-  - "GRANT ALL ON store_inventory.* TO 'djangouser'@'%';"
+    - "GRANT ALL ON store_inventory.* TO 'djangouser'@'%';"
 - We need to flush the privileges so that the current instance of MySQL knows about the recent changes we’ve made:
-  - "FLUSH PRIVILEGES;"
+    - "FLUSH PRIVILEGES;"
 - Once you have made these changes, restart your MySQL server. If you have any difficulties follow the link below:
-  - [Connecting MySQL to Django](https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database) - Further Information
+    - [Connecting MySQL to Django](https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database) - Further Information
 - Once the database has been created, copy the contents of each text file from the folder "./databasescripts"...
 - And paste them into empty stored procedures that you have created within the database. 
 - If you do not know how to create stored procedures in MYSQL follow the instructions in the link below.
-  - [Creating Stored Procedures](https://www.youtube.com/watch?v=OPoxqvPD6Do&ab_channel=RamNJavaTutorial) - Youtube Video.
+    - [Creating Stored Procedures](https://www.youtube.com/watch?v=OPoxqvPD6Do&ab_channel=RamNJavaTutorial) - Youtube Video.
 
 <br />
 
